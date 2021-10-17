@@ -21,7 +21,7 @@ function setup()
 function draw()
 {
  image(video,0,0,300,300);
- image(clound,nose_x+40,nose_y,30,30);
+ image(clound,nose_x,nose_y+10,30,30);
 }
 function save_it()
 {
